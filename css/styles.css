@@ -1,3 +1,142 @@
-nav{
-    text-align: left;
+.boton { 
+    font-family:arial , sans-serif; 
+    font-size: 13px; 
+    font-weight: bold; 
+    padding: 0px; 
+    background-color: #f2f2f2; 
+    color: #757575; 
+    text-decoration: none; 
+    font-weight: bold;
+    margin: 11px 10px;
+    min-width: 54px;
+    padding: 3px 16px;
+    text-align: center;
+    cursor: default;
+ }
+ .boton:hover{ 
+    font-family:arial , sans-serif; 
+    font-size: 13px; 
+    font-weight: bold; 
+    padding: 0px; 
+    background-color: #f2f2f2; 
+    color: black; 
+    text-decoration: none; 
+    font-weight: bold;
+    margin: 11px 10px;
+    min-width: 54px;
+    padding: 3px 16px;
+    text-align: center;
+    cursor: default;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+ }
+ .barraBusqueda{
+    width: 600px;
+    height: 30px;
+    margin: 30px 0px 30px 30px;
+    outline: 0;
+    
+ } 
+ .barraBusqueda:hover{
+    width: 600px;
+    height: 30px;
+    margin: 30px 0px 30px 30px ;
+    outline: 0;
+    box-shadow: -1px 9px 13px -12px rgba(0,0,0,0.75);
+    border: 0;
+
+ }
+ .leyenda{
+     font-family: Arial, sans-serif;
+     font-size: 12px;
+     margin-bottom: 235px;
+ }
+ .iniciar-sesion{
+    font-family:arial , sans-serif; 
+    font-size: 13px; 
+    font-weight: bold; 
+    padding: 0px; 
+    background-color:rgb(66, 133, 244); 
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold;
+    margin: 11px 10px;
+    min-width: 54px;
+    padding: 3px 16px;
+    text-align: center;
+    cursor: default;
+ }
+ .nav{
+     display: block;
+     text-align: right;
+     margin: 15px;
+    
+ }
+ .imagen{
+     display: block;
+     text-align: center;
+ }
+ .menu{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: gray;
+ }
+ .menu:hover{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: underline;
+    color: gray;
+ }
+ .link1{
+     text-decoration: none;
+     color: blue;
+ }
+ .link1:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.microfono{
+    
+    height: 25px;
+    width: 50px;
+    margin: 0;
+
+}
+.footer{
+    background:rgba(0,0,0,.08);
+    border: 1px solid #c6c6c6;
+    margin: 0;
+    padding: 0;
+}
+.section{
+   border:  1px solid #c6c6c6;
+}
+.demas{
+    color: black;
+    padding: 1px;
+    text-decoration: none;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.demas:hover{
+    color: black;
+    padding: 1px;
+    text-decoration: underline;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.mexico{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.mexico:hover{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: underline;
 }
